@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route, Navigate} from "react-router-dom";
 import NavBar from "./componunt/NavBar";
 import Home from "./pages/Home";
-
 import Register from "./pages/Register";
 import Dashbord from "./pages/Dashbord";
 import Login from "./pages/Login";
@@ -25,4 +24,4 @@ export default function App() {
 
     );
 }
-// <Route path="*" element={<Navigate to="/authentication/sign-in" />} />
+
